@@ -1,0 +1,245 @@
+  .book {
+    right: 0px;
+    width: 18.5rem;
+    height: 12.5rem;
+    perspective: 70rem;
+  }
+  .cover {
+    background-color: #23216d;
+    transform: rotateY(0deg);
+    width: 7.25rem;
+    height: 10.5rem;
+  }
+
+  .content {
+    position: relative;
+  }
+  
+    .content-overlay {
+    background: rgba(7, 8, 24, 0.76);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 0.5;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 1s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.6s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h2{
+    color: rgb(152, 248, 224);
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: rgb(235, 253, 156);
+    font-size: 1rem;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+
+  .c-icon img:hover{
+        transform: scale(1.11);
+        transition: all 0.3s ease-in-out 0s;
+  }
+
+  p.lead.social-links{
+      font-size: 2.5rem;
+      color: rgb(22, 21, 54);
+      
+  }
+
+  .carousel-inner{
+    height: 500px;
+  }
+
+  .carousel-item img{
+    position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  }
+  
+  .about-three{
+    background-color: #ccdeff;
+  }
+
+  .footer-social i{
+    color: rgb(252, 222, 232);
+  }
+  p.social-links.contact-edu{
+    font-size: 1.5rem;
+    color: rgba(157, 140, 255, 0.767);
+  }
+
+  .each-image{
+    animation: text-scale  3s infinite;
+    animation:  text-scale 0.5s backwards infinite ;
+  }
+
+  @keyframes text-scale{
+    0%, 100%{
+      transform: scale(1.0);
+    }
+
+    50%{
+      transform: scale(1.2);
+    }
+  }
+
+  .block-effect {
+    font-size: calc(6px + 5vw);
+  }
+  
+  .block-reveal {
+    --t: calc(var(--td) + var(--d));
+  
+    color: transparent;
+    padding: 4px;
+  
+    position: relative;
+    overflow: hidden;
+  
+    animation: revealBlock 0s var(--t) forwards;
+  }
+  
+  .block-reveal::after {
+    content: '';
+  
+    width: 0%;
+    height: 100%;
+    padding-bottom: 4px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    background: var(--bc);
+    animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
+  }
+
+  @keyframes revealBlock {
+    100% {
+      color: #2e0303;
+    }
+  }
+  
+  @keyframes revealingIn {
+  
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes revealingOut {
+  
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(100%);
+    }
+  
+  }
+
+  @media (max-width: 1000px) {
+    h4.contact-text{
+      font-size: 1rem;
+    }
+    p.social-links.contact-edu{
+      font-size: 1.5rem;
+      color: rgb(56, 23, 23);
+    }
+  }
+  @media (max-width: 700px) {
+    h4.contact-text{
+      font-size: 0.75rem;
+    }
+    h1.artworks-heading{
+      font-size: 2.75rem;
+      margin-top: 2rem;
+    }
+  }
+  @media (max-width: 500px) {
+    h4.contact-text{
+      font-size: 0.5rem;
+    }
+    h1.artworks-heading{
+      font-size: 2rem;
+    }
+  }
+    body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+    }
+    body {
+      background: linear-gradient(-45deg, #db3030da, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      -webkit-animation: gradient 6s ease infinite;
+              animation: gradient 6s ease infinite;
+    }
+    
+    @-webkit-keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    } 
+  

@@ -1,0 +1,716 @@
+@media (max-width: 760px){
+header{
+    background: #222;
+} 
+body {
+    font-family: 'Open Sans';
+    color: #222;
+}
+/*
+this is a CSS comment
+shortcut for adding the comment control + / or command + /
+*/
+h1{
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+h1+p{
+    color: white;
+}
+.about{ 
+    display: flex;
+    background-color:black;
+    background:transparent;
+background-attachment: fixed;
+
+}
+.logo{
+    color: #222;
+    background-color: #c78c06;
+    width: 80px;
+    height: 70px;
+    position: relative;
+    top: 75px;
+    
+}
+[href='index.html']{
+    display:block;
+    background:#c78c06;
+    color:#222;
+    width: 160px;
+    height:120px;
+    position: relative;
+    right: 75px;
+    bottom: 25px;
+    padding: 26px;
+    align-items: center;
+
+    
+}
+    
+p{
+    color: black;
+}
+[href='#1']{
+    display: flex;
+    color: #222;
+    background-color: #c78c06;
+    width: 150px;
+    height: 60px;
+    border: 1px solid #191919;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    border:1px #c78c06 solid;
+    padding:5px;
+    float: left;
+}
+form{
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul a {
+    color: #c78c06;
+    text-decoration: none;
+}
+
+.large-text {
+    font-size: 18px;
+}
+/* config the header */
+
+  /* resize a change olace of the main */
+      nav li{
+        display: flex;
+        flex-direction: column;
+  background-color:#222;
+  width: 50px;
+  height: 40px;
+  text-align:center;
+  
+      }
+      
+      main{
+          display: flex;
+          align-items:center;
+        width:400px;
+        background-image: url("../images/main-banner.jpg");
+        background-size: cover;
+        padding: 70px;
+        text-align: left;
+        text-size-adjust: 25px;
+        color: white;
+        padding-left:15px;
+        padding-bottom: 80px;
+      }
+      .box{
+          width: 400px;
+          position: relative;
+          max-width: 500px;
+          padding:30px;
+          background: rgba(2,2, 2,.5 );
+          box-shadow: 0 5px 10px rgba(0,0,0,.5)
+      }
+      
+    
+          
+.osilva{
+background:#ffe6ac;
+}
+h2{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+h3{
+font-size: 50px;
+font-weight: bold;
+}
+h4{
+    font-size:35px;
+}
+.services{
+    background: #ffe6ac;
+}
+h5{
+    font-weight: bold;
+    font-size: 35px;
+}
+.marke{
+    background: #ffe6ac;
+    margin:15px;
+}
+h6{
+    font-weight: bold;
+    font-size: 35px;
+}
+.acro{
+    background: #ffe6ac;
+    margin:15px;
+}
+h7{
+    font-weight: bold;
+    font-size: 35px;
+}
+.trop{
+    background: #ffe6ac;
+    margin:15px;
+}
+h8{
+    font-weight: bold;
+    font-size: 35px;
+}
+.dora{
+    background: #ffe6ac;
+    margin:15px;
+}
+h9{
+    font-weight: bold;
+    font-size: 35px;
+    float: left;
+}
+.toura>p{
+    display: inline-block;
+    justify-content: flex-start;
+
+    color: white;
+}
+[href='#x'] {
+    color:white;
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #c78c06;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    text-align: center; 
+    position: relative;
+    bottom: 90px;
+    background: rgb(19, 23, 48);
+    
+    
+}
+.toura{
+    width:465px;
+    background-image: url("../images/vision.jpg");
+    background-size: cover;
+    padding: 70px;
+    text-align: left;
+    text-size-adjust: 25px;
+    color: white;
+    padding-left:15px;
+    padding-bottom: 80px;
+    
+}
+h10{
+    font-weight: bold;
+    font-size: 35px;
+}
+.team{
+    width: 430px;
+    height: 150px;
+    background: #ffe6ac;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+/* styling the */
+h11{
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+}
+h12{
+    display:flex;
+    font-weight:bold ;
+    font-size:17px;
+    border-bottom: 3px #c78c06 solid;
+}
+h13{
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+}
+h14{
+    display:flex;
+    font-weight:bold ;
+    font-size:17px;
+    border-bottom: 3px #c78c06 solid;
+}
+.drix{
+    width: 430px;
+    height: 150px;
+    background: #ffe6ac;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+h15{
+    font-weight: bold;
+    font-size: 50px;
+    float: left;
+    margin:20px;
+}
+h16{
+    font-weight: bold;
+    font-size: 35px;
+    float: left;
+}
+.contact{
+    font-weight: normal;
+    font-size:15px;
+}
+/* adiing table */
+table{
+    width: 600px;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+th{
+    background: #ffe6ac;
+    text-align: center;
+
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding:10px
+}
+
+    /* styling the footer */
+footer {
+    width: 570px;
+    color: #c78c06;
+    background: #222;
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 5px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    padding-left: 0px ;
+
+}
+/* styling the send botton */
+button{
+    color: #c78c06;
+    background-color: #222;
+    height: 30px;
+    border: 1px solid #222;
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+img{
+    width:450px;
+}
+
+
+input{
+display:block;
+width:100%;
+}
+[href='#'] {
+    color:white;
+    display: grid;
+    width: 150px;
+    height: 70px;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center; 
+    background: #222;
+    margin: 10px;
+    align-items: center;
+    
+}
+}
+/* adding media query for screen 760px and above */
+@media (min-width: 760px) and (max-width: 1200px){
+ body {
+     width: 100%;
+     height: 100%;
+
+    }
+    header{
+        background: #222;
+    } 
+    .wrapper{
+        display: flex;
+        list-style: none;
+
+    }
+    /* styling the home page botton */
+    [href='index.html']{
+        display:flex;
+        background:#c78c06;
+        color:#222;
+        width: 60px;
+        height: 10px;
+        text-align: center;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        margin: 60px;
+    }
+    nav ul a {
+        color: #c78c06;
+        text-decoration: none;
+        padding: 15px;
+        display:flex
+    }
+    .logo{
+        width: 60px;
+        position: relative;
+        top: 110px;
+        left: 20px;
+    }
+    i{
+        color: #c78c06;
+        border:1px #c78c06 solid;
+        background: #222;
+        padding: 10px;
+    }
+    form{
+        display: flex;
+        align-items: center;
+    }
+    h1{
+        font-weight: 200;
+        font-size: 2.5rem;
+    }
+    h1+p{
+        color: white;
+    }
+    /* styling the main and adding background  */
+    main{
+        display: flex;
+        align-items:center;
+      width:100%;
+      background-image: url("../images/main-banner.jpg");
+      background-size: cover;
+      padding: 70px;
+      text-align: left;
+      text-size-adjust: 25px;
+      color: white;
+      padding-left:15px;
+      padding-bottom: 80px;
+    }
+    /* front background transparent */
+    .box{
+        width: 600px;
+        height: 300px;
+        position: relative;
+        max-width: 1200px;
+        padding:30px;
+        background: rgba(2,2, 2,.5 );
+        box-shadow: 0 5px 10px rgba(0,0,0,.5)
+    }
+    .about{ 
+        display: flex;
+        background-color:black;
+        background:transparent;
+    background-attachment: fixed;
+    
+    }
+    p{
+        color: black;
+    }
+    /* styling limk for contact */
+    [href='#1']{
+        display: flex;
+        color: #222;
+        background-color: #c78c06;
+        width: 150px;
+        height: 60px;
+        border: 1px solid #191919;
+        padding: 10px;
+        margin: 10px;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+    }
+    .osilva{
+        background:#ffe6ac;
+        width: 100%;
+        margin: 30px;
+        text-align: left;
+        }
+        .osilva>img{
+            float: left;
+            padding: 10px;
+            padding-left:20px ;
+        }
+        h2{
+            padding: 5px;
+            font-weight: bold;
+            font-size: 35px;
+        }
+        
+        h3{
+        font-size: 50px;
+        font-weight: bold;
+        }
+        h4{
+            font-size:35px;
+        }
+        /* services list */
+        .services{
+            float: left;
+            background: #ffe6ac;
+            width: 350px;
+        }
+        .services>img{
+            display: grid;
+            width: 350px;
+        }
+        h5{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .marke{
+            float: right;
+            background: #ffe6ac;
+            margin:15px;
+            width: 350px;
+        }
+        .marke>img{
+            width:350px;
+        }
+        h6{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .acro{
+            float: left;
+            background: #ffe6ac;
+            margin:15px;
+            width: 350px;
+        }
+        .acro>img{
+            width: 350px;
+        }
+        h7{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .trop{
+            float: right;
+            background: #ffe6ac;
+            margin:15px;
+            width:350px;
+        }
+        .trop>img{
+            width:350px;
+        }
+        h8{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        .dora{
+           
+            background: #ffe6ac;
+            margin:15px;
+            width:350px;
+        }
+        .dora>img{
+            width :350px;
+        }
+        h9{
+            font-weight: bold;
+            font-size: 35px;
+            float: left;
+        }
+        .toura>p{
+            display: inline-block;
+            justify-content: flex-start;
+            font-size: 12px;
+        
+            color: white;
+        }
+        /* styling all links for services */
+        [href='#x'] {
+            color:white;
+            display: block;
+            width: 150px;
+            height: 50px;
+            border: 2px solid #c78c06;
+            padding: 10px;
+            margin: 10px;
+            text-decoration: none;
+            text-align: center; 
+            position: relative;
+            bottom: 90px;
+            background: rgb(19, 23, 48);
+            margin-left:80px ;
+            
+            
+        }
+        /* styling side to side elements with different places */
+        .toura{
+            width:800px;
+            height: 100px;
+            background-image: url("../images/vision.jpg");
+            background-size: cover;
+            padding: 40px;
+            text-align: left;
+            text-size-adjust: 25px;
+            color: white;
+            padding-left:75px;
+            padding-bottom: 80px;
+            
+        }
+        h10{
+            font-weight: bold;
+            font-size: 35px;
+
+        }
+        .trex{
+            float:left;
+        }
+        .trix{
+            float: right;
+        }
+        .team{
+            width: 330px;
+            height: 200px;
+            background: #ffe6ac;
+            padding-left: 20px;
+            padding-top: 10px;
+            float: right;
+            margin-bottom: 15px;
+        }
+        
+        h11{
+            display: flex;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        h12{
+            display:flex;
+            font-weight:bold ;
+            font-size:17px;
+            border-bottom: 3px #c78c06 solid;
+        }
+        h13{
+            display: flex;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        h14{
+            display:flex;
+            font-weight:bold ;
+            font-size:17px;
+            border-bottom: 3px #c78c06 solid;
+        }
+        .drix{
+            width: 330px;
+            height: 290px;
+            background: #ffe6ac;
+            padding-left: 20px;
+            padding-top: 10px;
+            float: left;
+        }
+        h15{
+            font-weight: bold;
+            font-size: 50px;
+            float: left;
+            margin:20px;
+        }
+        h16{
+            font-weight: bold;
+            font-size: 35px;
+            float: left;
+        }
+        .contact{
+            font-weight: normal;
+            font-size:15px;
+        }
+        table{
+            width: 600px;
+            font-size: 15px;
+            font-weight: normal;
+        
+        }
+        th{
+            background: #ffe6ac;
+            text-align: center;
+        
+        }
+        table,th,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding:10px
+        }
+        
+            /* adding image position */
+        footer {
+            width: 570px;
+            color: #c78c06;
+            background: #222;
+            font-size: 15px;
+            font-weight: normal;
+            padding-top: 5px;
+        }
+        li{
+            list-style: none;
+            padding: 10px;
+            padding-left: 0px ;
+        
+        }
+        
+        button{
+            color: #c78c06;
+            background-color: #222;
+            height: 30px;
+            border: 1px solid #222;
+            font-size: 20px;
+            margin-top:20px;
+            margin-bottom: 20px;
+        }
+        img{
+            width:450px;
+        }
+        
+        
+        input{
+        display:block;
+        width:100%;
+        }
+        [href='#'] {
+            color:white;
+            display: grid;
+            width: 320px;
+            height: 60px;
+            border: 1px solid black;
+            text-decoration: none;
+            text-align: center; 
+            background: #222;
+            margin: 10px;
+            align-items: center;    
+        }
+    }

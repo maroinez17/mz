@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/*
+this is a CSS comment
+shortcut for adding the comment control + / or command + /
+*/
+h1{
+    color: white;
+}
+body{
+    background-color: rgba(78, 189, 183, 0.651);
+}
+nav ul {
+    list-style: none;
+}
+nav ul a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+/* selecting HTML element with classe name */
+.orange-link {
+    background: darkslategrey;
+    color: rgb(78, 189, 183, 0.651);
+}
+
+.large-text {
+    font-size: 18px;
+}
+
+article>p {
+    font-size: 20px;
+}
+/* config the header */
+header {
+    background-color: #7f8c8d;
+    background-image: url("../images/lone-starfish-wide.jpg");
+    background-repeat: repeat-x;
+    background-position: 50px -50px;
+    padding: 70px;
+    text-align: center;
+    text-size-adjust: 25px;
+  }
+  /* resize a change olace of the main */
+      nav li{
+        display: inline-block;
+  background-color: lightblue;
+  width: 315px;
+  height: 40px;
+  float: left;
+  position: relative;
+  bottom: -70px;
+  right: 30px
+      }
+    /* adding image position */
+img{
+    width: 180px;
+    float: left;
+    margin: auto;
+}
+footer {
+    float: right;
+    margin: 50px;
+}
+body{
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 0mm;
+    position: absolute;
+    background-color: rgb(122, 182, 164);
+}
+button{
+    background-color: rgb(78, 189, 183, 0.651);
+    height: 30px;
+    border: 1px solid #191919;
+    float: left;
+    margin: 20px;
+}
+[href="#hor"] {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  
+  ;
+  
+}
+.content-container{
+    margin: 0 auto;
+    max-width: 0 auto;
+    border: 1px solid black;
+    height: 300px;
+}
+main{
+    position: relative;
+    bottom: 100;
+    background-color: rgb(172, 221, 217);
+}
+.content-container2{
+    border: 1px;
+background-color: rgb(172, 221, 217,); 
+}
+
+ 
